@@ -1,0 +1,105 @@
+<resources>
+
+
+    <string name="app_name">درمانگر</string>
+    <string name="item_1">لیست کل بیماران</string>
+    <string name="item_2">لیست بیماران پر خطر </string>
+    <string name="item_3">لیست بیماران تماس گرفته شده </string>
+    <string name="item_4">لیست بیماران تماس گرفته نشده پر خطر </string>
+
+
+    <string name="search_text">نام یا شماره بیمار ...</string>
+    <string name="search_button">جستجو</string>
+    <string name="call">تماس با بیمار</string>
+
+    <string name="lab_title">آزمایشات</string>
+    <string name="PDD">پی دی دی</string>
+
+    <string name="natioral">طبیعی</string>
+
+    <string name="more_search">نیاز به بررسی بیشتر</string>
+    <string name="dont_have">این آزمایش هنوز صورت نگرفته</string>
+    <string name="dont_nessesary">لازم نیست</string>
+
+
+    <string name="aks_text">عکس سینه</string>
+
+    <string name="khelt_one_text">تست خلط اول</string>
+
+    <string name="unfit">نمونه نا مناسب</string>
+    <string name="khelt_two_text">تست خلط دوم</string>
+
+
+    <string name="city_scan_text">سی تی اسکن</string>
+
+
+    <string name="shire_mede">شیره معده</string>
+
+
+    <string name="bronscopy">برونسکپی</string>
+
+    <string name="baliny_title">معایتان بالینی</string>
+
+    <string name="exam_one_text">معاینه اول</string>
+
+    <string name="need_text">نیاز به تبویرانتی</string>
+
+    <string name="exam_two_text">معاینه دوم</string>
+
+    <string name="child_text">متخصص اطفال</string>
+
+    <string name="ophony_text">متخصص عفونی</string>
+
+
+    <string name="need_darman">نیاز به درمان</string>
+
+
+    <string name="r1">بیمار محترم بر اساس بررسی های انجام شده نیاز به درمان دارید</string>
+
+
+    <string name="r2">بیمار محترم شما نیاز به درمان بروف تاکس دارید</string>
+
+
+    <string name="r3">علائمی پیدا نشد</string>
+
+
+    <string name="description_text">توضیحات بیشتر</string>
+    <string name="send">ارسال</string>
+
+    <string name="title_message">عنوان پیام</string>
+
+    <string name="text_message">متن پیام</string>
+
+    <string name="take_lab">ثبت آزمایشات انجام شده</string>
+    <string name="take_image">گرفتن عکس</string>
+
+    <string name="remove">حذف بیمار</string>
+
+    <string name="report_lab">گزارش از آزمایشات گرفته شده</string>
+
+    <string name="ppd">عکس آزمایش PDD</string>
+    <string name="conography">سنوگرافی شکم</string>
+
+    <string name="citi_scan">سی تی اسکن</string>
+    <string name="aks_cineh">عکس سینه</string>
+
+    <string name="pcr"> جین اکسپرت</string>
+
+    <string name="khelt_cineh">خلط سینه</string>
+
+
+    <string name="aks_riyeh">عکس ریه</string>
+
+    <string name="bronkoskopi">برون کس کپی</string>
+
+    <string name="shereh_medeh">شیره معده</string>
+
+    <string name="conography_riyeh">سنوگرافی ریه</string>
+
+
+    <string name="conography_shikam">سنوگرافی شکم</string>
+
+
+    <string name="empty_sick">شما هیچ بیماری در حال حاضر ندارید.</string>
+    <string name="result_lab">تعیین نتیجه آزمایشات گرفته شده</string>
+</resources>

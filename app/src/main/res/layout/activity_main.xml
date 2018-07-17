@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="rtl"
+    tools:context=".MainActivity" >
+
+
+
+
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/DL"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" >
+
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/some_id_if_needed"
+                layout="@layout/toolbar" />
+
+
+
+
+            <!--<com.synnapps.carouselview.CarouselView-->
+                <!--android:id="@+id/carouselView"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="200dp"-->
+                <!--app:fillColor="#FFFFFFFF"-->
+                <!--app:pageColor="#00000000"-->
+                <!--app:radius="6dp"-->
+                <!--app:slideInterval="5000"-->
+                <!--app:strokeColor="#FF777777"-->
+                <!--app:pageTransformer="flow"-->
+                <!--app:strokeWidth="1dp"/>-->
+
+
+
+
+
+            <com.jude.rollviewpager.RollPagerView
+                android:id="@+id/baner"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:rollviewpager_play_delay="5000"/>
+
+
+
+
+
+
+            <ListView
+                android:id="@+id/list_sick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </ListView>
+
+
+
+
+            <TextView
+                android:id="@+id/empty_sick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/message_bg"
+                android:text="@string/empty_sick"
+                android:layout_margin="30dp"
+                android:padding="15dp"
+                android:layout_gravity="center"
+
+                android:textSize="32px"
+                android:textColor="@color/colorPrimaryDark"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/NA"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            app:headerLayout="@layout/header_menu_main"
+            app:menu="@menu/bottom_navigation_items"/>
+
+
+    </android.support.v4.widget.DrawerLayout>
+</RelativeLayout>

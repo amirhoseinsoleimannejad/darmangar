@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.amhso.darmangar.LabActivity">
+
+
+
+    <Button
+        android:id="@+id/take_img"
+        android:text="@string/take_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <ImageView
+        android:id="@+id/photo_image"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+
+
+
+
+    <RadioGroup
+        android:id="@+id/category_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/ppd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ppd"
+            android:checked="true"
+            android:buttonTint="@color/colorPrimaryDark" />
+
+
+        <RadioButton
+            android:id="@+id/conography"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="@string/conography" />
+
+
+
+
+
+
+
+        <RadioButton
+            android:id="@+id/aks_cineh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="@string/aks_cineh" />
+
+
+
+        <RadioButton
+            android:id="@+id/citi_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="@string/citi_scan" />
+
+
+
+        <RadioButton
+            android:id="@+id/pcr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="@string/pcr" />
+
+
+    </RadioGroup>
+
+
+
+
+    <RadioGroup
+        android:id="@+id/category_group_danger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/khelt_cineh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/khelt_cineh"
+            android:checked="true"
+            android:buttonTint="@color/colorPrimaryDark" />
+
+
+
+
+        <RadioButton
+            android:id="@+id/aks_riyeh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="@string/aks_riyeh" />
+
+
+
+
+
+
+
+        <RadioButton
+            android:id="@+id/bronkoskopi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="@string/bronkoskopi" />
+
+
+
+        <RadioButton
+            android:id="@+id/shereh_medeh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="@string/shereh_medeh" />
+
+
+
+        <RadioButton
+            android:id="@+id/pcr_danger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="@string/pcr" />
+
+
+
+        <RadioButton
+            android:id="@+id/conography_riyeh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="@string/conography_riyeh" />
+
+    </RadioGroup>
+
+
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="10"
+        android:minLines="6"
+        android:hint="@string/description_text"
+        android:scrollbars="vertical" />
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:id="@+id/send"/>
+
+
+
+
+</LinearLayout>
+
+
+</ScrollView>

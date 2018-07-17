@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group >
+
+
+
+
+        <item
+            android:id="@+id/search_one"
+            android:icon="@drawable/icon1"
+            android:title="@string/item_1" />
+
+
+
+
+        <item
+            android:id="@+id/search_two"
+            app:showAsAction="always"
+            android:icon="@drawable/icon2"
+            android:title="@string/item_2" />
+
+
+
+
+        <item
+            android:id="@+id/search_three"
+            android:icon="@drawable/icon3"
+            android:title="@string/item_3" />
+
+
+
+
+        <item
+            android:id="@+id/search_four"
+            android:icon="@drawable/icon4"
+            android:title="@string/item_4" />
+
+
+
+        <!--<item-->
+            <!--android:id="@+id/search_five"-->
+            <!--android:icon="@drawable/profileicon"-->
+            <!--android:title="پروفایل" />-->
+
+
+
+
+        <!--<item-->
+            <!--android:id="@+id/report"-->
+            <!--android:icon="@drawable/reporticon"-->
+            <!--android:title="گزارشات" />-->
+
+
+        <!--<item-->
+        <!--android:id="@+id/sharzh"-->
+        <!--android:icon="@drawable/iconexit"-->
+        <!--android:title="شارژ حساب" />-->
+
+
+
+        <!--<item-->
+            <!--android:id="@+id/exit"-->
+            <!--app:showAsAction="always"-->
+            <!--android:icon="@drawable/iconexit"-->
+            <!--android:title="خروج" />-->
+
+
+    </group>
+</menu>

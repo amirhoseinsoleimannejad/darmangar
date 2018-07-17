@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+
+    android:id="@+id/popup_1"
+    android:background="@drawable/border_shadow_box"
+    android:layout_height="match_parent">
+
+
+
+
+    <EditText
+
+        android:id="@+id/search_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:hint="@string/search_text"/>
+
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="match_parent"
+        android:text="@string/search_button"
+        android:background="@drawable/border_shadow"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
